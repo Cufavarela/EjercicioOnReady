@@ -1,5 +1,4 @@
-import { stock } from './stock';
+const onReady = require('./dist');
+const stock = require('./stock.js');
 
-
-
-
+onReady.mapearInventario(stock.data);
